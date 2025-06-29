@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
-  const loggedIn = true;
+  const loggedIn = false;
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 w-full">
