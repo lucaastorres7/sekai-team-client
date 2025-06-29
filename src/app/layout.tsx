@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <div className="App">
           <Header />
-          <main className="AppBody">{children}</main>
+          <main className="AppBody flex flex-col grow">{children}</main>
           <Footer />
         </div>
       </body>
